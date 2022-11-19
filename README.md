@@ -22,6 +22,19 @@ after, run the husky command to ensure testing before commits
 npx husky set .husky/pre-commit "npm run lint && npm run test"
 ```
 
+## Know Errors
+
+When running eslint <code>npm run lint</code> you may be greeted by an unfamiliar message that goes on the lines of:
+
+``` 
+Pages directory cannot be found at C:\Users\{Name}\{Name}\{repo-name}\pages or C:\Users\{Name}\{Name}\{repo-name}\src\pages. If using a custom path, please configure with the `no-html-link-for-pages` rule in your eslint config file. 
+```
+
+To fix any linting errors first try
+``` 
+npm run lint:fix
+```
+
 ## Contributions
 
 Any contribution/feed back would be greatly appreciated
