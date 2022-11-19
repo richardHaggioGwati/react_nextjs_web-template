@@ -22,7 +22,7 @@ after, run the husky command to ensure testing before commits
 npx husky set .husky/pre-commit "npm run lint && npm run test"
 ```
 
-## Know Errors
+## Known Errors
 
 When running eslint <code>npm run lint</code> you may be greeted by an unfamiliar message that goes on the lines of:
 
