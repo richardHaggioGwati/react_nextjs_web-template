@@ -13,9 +13,13 @@ These are the following resources:
 
 Optionally add [Jest](https://jestjs.io/docs/tutorial-react) to the repo and run these following commands
 
-``` npm install --save-dev react-test-renderer
+``` 
+npm install --save-dev react-test-renderer
+```
+after, run the husky command to ensure testing before commits
 
-    npx husky set .husky/pre-commit "npm run lint && npm run test"
+```
+npx husky set .husky/pre-commit "npm run lint && npm run test"
 ```
 
 ## Contributions
