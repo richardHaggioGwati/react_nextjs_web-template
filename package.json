@@ -1,14 +1,13 @@
 {
   "name": "react_node_template",
   "version": "1.1.0",
-  "description": "This is a template repo which has a main purpose of being the initial state for all of my web applications.",
+  "description": "react node.",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "prepare": "husky install"
   },
   "keywords": [],
-  "author": "",
+  "author": "RicahrdGH",
   "license": "ISC",
   "devDependencies": {
     "@commitlint/cli": "^17.7.1",
