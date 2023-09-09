@@ -1,8 +1,12 @@
-const express = require('express');
-const app = express();
+const express = require('express')
+const app = express()
 
-app.get("/", (req, res) => {
-    res.json("All the way from the back.....");
-});
+const port = process.env.PORT || 5000
 
-app.listen(5000);
+app.get('/api', (req, res) => {
+  res.json({ msg: 'running in the back of it all' })
+})
+
+app.listen(port, () => {
+  console.log(`Server is listening on ${port}...`)
+})
