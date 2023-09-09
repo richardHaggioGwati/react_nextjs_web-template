@@ -1,41 +1,40 @@
-# Getting Started
+# React with Node.js Template
 
-This is a template repo which has a main purpose of being the initial state for all of my web applications.
+## Table of Contents
 
-## Dependencies
+- [Project Description](#project-description)
+- [Getting Started](#getting-started)
+    - [Prerequisites](#prerequisites)
+    - [Installation](#installation)
+- [Usage](#usage)
+- [Folder Structure](#folder-structure)
+- [License](#license)
+- [Contributing](#contributing)
 
-These are the following resources:
+## Project Description
 
-- [Next.js V13](https://nextjs.org/) - learn about Next.js features and API.
-- [CommitLint](https://www.conventionalcommits.org/en/v1.0.0/#summary) - an enforced commit style guide to ensure consistant and readable commits.
-- [EsLint AirBnb](https://www.npmjs.com/package/eslint-config-airbnb) - following the style guides for the popular airbnb eslint plugin.
-- [Husky](https://github.com/typicode/husky) - use to run linting before commits are made.
+This project is a template for creating a web application using React for the frontend and Node.js for the backend. It's designed to help you kickstart your development by providing a basic project structure, configuration files, and some example code.
 
-Optionally add [Jest](https://jestjs.io/docs/tutorial-react) to the repo and run these following commands
+## Getting Started
 
-``` 
-npm install --save-dev react-test-renderer
-```
-after, run the husky command to ensure testing before commits
+Follow these instructions to get your project up and running.
 
-```
-npx husky set .husky/pre-commit "npm run lint && npm run test"
-```
+### Prerequisites
 
-## Known Errors
+Make sure you have the following software installed on your system:
 
-When running eslint <code>npm run lint</code> you may be greeted by an unfamiliar message that goes on the lines of:
+- [Node.js](https://nodejs.org/) (LTS version recommended)
+- [npm](https://www.npmjs.com/) (usually included with Node.js)
+- [webstorm](https://www.jetbrains.com/webstorm/) (IDE editor of your choice)
 
-``` 
-Pages directory cannot be found at C:\Users\{Name}\{Name}\{repo-name}\pages or C:\Users\{Name}\{Name}\{repo-name}\src\pages. If using a custom path, please configure with the `no-html-link-for-pages` rule in your eslint config file. 
-```
+### Installation
 
-To fix any linting errors first try
-``` 
-npm run lint:fix
-```
+1. Clone this repository:
 
-## Contributions
+   ```bash
+   git clone https://github.com/richardHaggioGwati/react_node_template
+
+### Contributing
 
 Any contribution/feed back would be greatly appreciated
 
